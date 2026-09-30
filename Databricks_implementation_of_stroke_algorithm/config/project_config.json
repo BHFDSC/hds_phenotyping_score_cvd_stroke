@@ -1,0 +1,11 @@
+{
+    "project_name": "hds_ls_score_cvd_stroke",
+    "project_folder": "/Workspace/Repos//hds_ls_score_cvd_stroke/databricks/pipeline",
+    "project_runtime_folder": "/Workspace/Users/{username}/hds_ls_score_cvd_stroke/runtime",
+    "project_start_date": "2025-07-18",
+    "project_end_date": null,
+    "users": [
+        {"name": "", "email": ""},
+        {"name": "", "email": ""}
+    ]
+}

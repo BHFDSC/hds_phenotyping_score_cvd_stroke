@@ -1,0 +1,50 @@
+colname,dataset,description
+person_id,HES-APC,Unique individual identifier. Column name is configurable via person_id_var in 'parameters.R' script
+ADMIDATE,HES-APC,Admission date
+ADMIMETH,HES-APC,Admission method
+ADMISORC,HES-APC,Admission source
+EPISTART,HES-APC,Episode start date
+EPIEND,HES-APC,Episode end date
+EPIKEY,HES-APC,Unique episode key
+EPIORDER,HES-APC,Episode order within a spell
+DISDATE,HES-APC,Discharge date
+DISMETH,HES-APC,Discharge method
+DISDEST,HES-APC,Discharge destination
+DIAG_3_01,HES-APC,3-character ICD-10 diagnosis field position 01 (primary diagnosis). Default parameters use 3-character columns (diag_3_XX). If using 4-character codes update code_positions_first_stroke_hes_apc and code_positions_subsequent_stroke_hes_apc in parameters.R to use diag_4_XX columns instead.
+DIAG_3_02,HES-APC,3-character ICD-10 diagnosis field position 02.
+DIAG_3_03,HES-APC,3-character ICD-10 diagnosis field position 03.
+DIAG_3_04,HES-APC,3-character ICD-10 diagnosis field position 04.
+DIAG_3_05,HES-APC,3-character ICD-10 diagnosis field position 05.
+DIAG_3_06,HES-APC,3-character ICD-10 diagnosis field position 06.
+DIAG_3_07,HES-APC,3-character ICD-10 diagnosis field position 07.
+DIAG_3_08,HES-APC,3-character ICD-10 diagnosis field position 08.
+DIAG_3_09,HES-APC,3-character ICD-10 diagnosis field position 09.
+DIAG_3_10,HES-APC,3-character ICD-10 diagnosis field position 10.
+DIAG_3_11,HES-APC,3-character ICD-10 diagnosis field position 11.
+DIAG_3_12,HES-APC,3-character ICD-10 diagnosis field position 12.
+DIAG_3_13,HES-APC,3-character ICD-10 diagnosis field position 13.
+DIAG_3_14,HES-APC,3-character ICD-10 diagnosis field position 14.
+DIAG_3_15,HES-APC,3-character ICD-10 diagnosis field position 15.
+DIAG_3_16,HES-APC,3-character ICD-10 diagnosis field position 16.
+DIAG_3_17,HES-APC,3-character ICD-10 diagnosis field position 17.
+DIAG_3_18,HES-APC,3-character ICD-10 diagnosis field position 18.
+DIAG_3_19,HES-APC,3-character ICD-10 diagnosis field position 19.
+DIAG_3_20,HES-APC,3-character ICD-10 diagnosis field position 20.
+person_id,ONS deaths,Unique individual identifier. Column name is configurable via person_id_var in 'parameters.R' script
+date_of_death,ONS deaths,Date of death. Parsed automatically from ISO (YYYY-MM-DD) or UK (DD/MM/YYYY) format.
+underlying_cod,ONS deaths,Underlying cause of death (ICD-10)
+cod_mentioned_1,ONS deaths,Additional cause of death mentioned on death certificate position 1
+cod_mentioned_2,ONS deaths,Additional cause of death mentioned on death certificate position 2.
+cod_mentioned_3,ONS deaths,Additional cause of death mentioned on death certificate position 3.
+cod_mentioned_4,ONS deaths,Additional cause of death mentioned on death certificate position 4.
+cod_mentioned_5,ONS deaths,Additional cause of death mentioned on death certificate position 5.
+cod_mentioned_6,ONS deaths,Additional cause of death mentioned on death certificate position 6.
+cod_mentioned_7,ONS deaths,Additional cause of death mentioned on death certificate position 7.
+cod_mentioned_8,ONS deaths,Additional cause of death mentioned on death certificate position 8.
+cod_mentioned_9,ONS deaths,Additional cause of death mentioned on death certificate position 9.
+cod_mentioned_10,ONS deaths,Additional cause of death mentioned on death certificate position 10.
+cod_mentioned_11,ONS deaths,Additional cause of death mentioned on death certificate position 11.
+cod_mentioned_12,ONS deaths,Additional cause of death mentioned on death certificate position 12.
+cod_mentioned_13,ONS deaths,Additional cause of death mentioned on death certificate position 13.
+cod_mentioned_14,ONS deaths,Additional cause of death mentioned on death certificate position 14.
+cod_mentioned_15,ONS deaths,Additional cause of death mentioned on death certificate position 15.
